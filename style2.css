@@ -110,8 +110,66 @@ card h3{
     padding: 5rem 10%;
     background: var(--light-bg);
 }
+/* Transform Modal into a Static Page */
+.modal {
+    display: none; /* Controlled by JS */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a0e17; /* Same as your site background */
+    z-index: 9999;
+    overflow-y: auto; /* Allows scrolling if the form is long */
+}
 
-.modal{
+.modal-content {
+    width: 100% !important;
+    min-height: 100vh;
+    max-width: none !important; /* Removes desktop width limits */
+    margin: 0 !important;
+    padding: 100px 10% 50px 10% !important; /* Extra top padding for the X button */
+    border-radius: 0 !important; /* No rounded corners */
+    border: none !important;
+    background-color: #0a0e17;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Magnified Words for the Modal-Page */
+.modal-content h2 {
+    font-size: 4rem !important; /* Huge Header */
+    color: #00d4ff;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+.modal-content input, 
+.modal-content select, 
+.modal-content textarea {
+    font-size: 2rem !important; /* Massive text for easy typing */
+    padding: 30px !important;
+    margin-bottom: 40px;
+    background: #161b22;
+    border: 3px solid #30363d;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* The Close Button as a Page Exit */
+.close-btn {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    font-size: 80px !important; /* Giant 'X' */
+    color: #ff4d4d;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+/*.modal{
     display: none;
     position: fixed;
     z-index: 1000;
@@ -123,7 +181,7 @@ card h3{
     backdrop-filter: blur(5px);
 }
 /*Modal Box*/
-.modal-content{
+/*.modal-content{
     background: var(--light-bg);
     padding: 2.5rem;
     border-radius: 20px;
@@ -131,7 +189,7 @@ card h3{
     max-width: 500px;
     position: relative;
     border: 1px solid var(--primary);
-}
+}*/
 
 /*Form styling*/
 #contactForm{ display:flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem;}
