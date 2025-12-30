@@ -436,11 +436,11 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 3rem;
     font-weight: 700;
     padding: 12px 24px;
     border: 2px solid #00d4ff;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: 0.3s;
     text-transform: uppercase;
 }
