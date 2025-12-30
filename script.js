@@ -62,3 +62,18 @@ function closeModal() {
     modal.style.display = "none";
     document.body.style.overflow = "auto"; // This restores scrolling
         }
+// Wait for the page to fully load
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById("contactModal");
+    const closeBtn = document.querySelector(".close-btn");
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", function(e) {
+            e.preventDefault(); // Prevents any default behavior
+            console.log("Close button was definitely clicked!"); // Check console (F12)
+            
+            modal.style.display = "none";
+            document.body.style.overflow = "auto"; // Unlock scrolling
+        });
+    }
+});
