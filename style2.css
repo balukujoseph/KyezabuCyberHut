@@ -398,23 +398,23 @@ p{
 }
 @media (max-width: 768px) {
     /*.modal {
-        align-items: flex-start; /* Starts at the top */
-        overflow-y: auto; /* Allows the form to scroll if it's longer than the screen */
+        align-items: flex-start; /* Starts at the top /
+        overflow-y: auto; /* Allows the form to scroll if it's longer than the screen /
     }
 
     .modal-content {
-        width: 100% !important; /* Full width */
-        min-height: 100vh; /* Full height */
+        width: 100% !important; /* Full width /
+        min-height: 100vh; /* Full height /
         margin: 0 !important;
-        border-radius: 0 !important; /* Removes rounded corners for a "static page" look */
+        border-radius: 0 !important; /* Removes rounded corners for a "static page" look /
         padding: 80px 30px 50px 30px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #0a0e17; /* Matches your site background */
+        background-color: #0a0e17; /* Matches your site background /
     }
 
-    /* Magnify Modal Text & Inputs */
+    /* Magnify Modal Text & Inputs /
     .modal-content h2 {
         font-size: 3.5rem !important;
         margin-bottom: 50px;
@@ -424,10 +424,10 @@ p{
     .modal-content input, 
     .modal-content select, 
     .modal-content textarea {
-        font-size: 1.8rem !important; /* Massive input text */
+        font-size: 1.8rem !important; /* Massive input text /
         padding: 28px !important;
         margin-bottom: 35px;
-        border: 3px solid #00d4ff; /* Thick borders for clarity */
+        border: 3px solid #00d4ff; /* Thick borders for clarity /
         background: #161b22;
         color: white;
     }
@@ -477,7 +477,7 @@ p{
         font-size: 1.2rem;
     }
 }
-.modal-content{
+/*.modal-content{
     width: 90%;
     max-width: 450px;
     padding: 25px;
