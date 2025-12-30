@@ -1,5 +1,5 @@
 //Get the modal and close button
-const modal = document.getElementById("contactModal");
+/**const modal = document.getElementById("contactModal");
 const closeBtn = document.querySelector(".close-btn");
 
 const triggerButtons = document.querySelectorAll(".trigger-modal");
@@ -10,7 +10,22 @@ triggerButtons.forEach(btn => {
         modal.style.display = 'flex';
         console.log("Modal opened by:", btn.innerText);
     }
+});**/
+const modal = document.getElementById("contactModal");
+const triggers = document.querySelectorAll(".trigger-modal");
+const closeBtn = document.querySelector(".close-btn");
+
+triggers.forEach(btn => {
+    btn.onclick = function() {
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Locks the main page
+    }
 });
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto"; // Unlocks the main page
+        }
 
 window.onclick = function(event){
     if (event.target == modal){
