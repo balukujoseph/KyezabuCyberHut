@@ -280,7 +280,7 @@ footer-links a {
 
 /* --MOBILE OPTIMIZATION BLOCK--*/
 
-@media (max-width: 768px) {
+/**@media (max-width: 768px) {
     :root{
         --mobile-padding:20px;
     }
@@ -366,4 +366,4 @@ footer-links a {
 }   
 @media (max-width: 380px){
     h1{ font-size: 1.8rem !important;}
-}
+}*/
