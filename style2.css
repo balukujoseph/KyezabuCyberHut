@@ -239,7 +239,7 @@ footer-links a {
     transform: translateY(-5px);
 }
 
-@media (max-width: 768px){
+/**@media (max-width: 768px){
     nav{
         padding: 15px 5%;
     }
@@ -276,4 +276,68 @@ footer-links a {
     max-width: 450px;
     padding: 25px;
     margin: 10px;
+}**/
+
+/* --MOBILE OPTIMIZATION BLOCK--*/
+
+@media (max-width: 768px) {
+    :root{
+        --mobile-padding:20px;
+    }
+    body{
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 2.2rem !important; text-align: center;
+    }
+    h2{
+        font-size: 1.8rem !important; text-align: center;
+    }
+    h3{
+        font-size: 1.4rem !important;
+    }
+    .services-container, .grid-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px var(--mobile-padding);
+        gap: 20px;
+    }
+    .card{
+        width: 100% !important;
+        margin:0;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    .modal-content{
+        width: 92%;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    input, select, text area, .btn-main{
+        font-size: 16px !important;
+        padding: 15px !important;
+    }
+    .floating-whatsapp{
+        width:55px;
+        height: 55px;
+        bottom: 20px;
+        right:20px;
+    }
+    #backToTop{
+        width:45px;
+        height: 45px;
+        bottom: 85px;
+        right:25px;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+}   
+@media (max-width: 380px){
+    h1{ font-size: 1.8rem !important;}
 }
