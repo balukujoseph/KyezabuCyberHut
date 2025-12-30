@@ -238,6 +238,53 @@ footer-links a {
     background-color: var(--secondary);
     transform: translateY(-5px);
 }
+:root {
+    --base-font-size: 20px;
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: var(--base-font-size);
+    line-height: 1.8;
+    color: #ffffff;
+}
+h1{
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    line-height:1.1;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+h2{
+    font-size:clamp(2rem, 6vw, 3.5rem);
+    margin-bottom: 25px;
+}
+p{
+    font-size:clamp(1.2rem, 4vw, 1.5rem);
+    margin-bottom: 20px;
+}
+@media (max-width:768px){
+    .modal-content{
+        width:96% !important;
+        max-width: none;
+        padding: 50px 25px !important;
+        border-radius: 30px;
+    }
+    .modal-content input,
+    .modal-content select,
+    .modal-content textarea {
+        font-size: 1.3rem !important;
+        padding: 22px !important;
+        margin-bottom: 25px;
+        border: 2px solid #30363d;
+        background: #0d1117;
+        color: white;
+    }
+    .close-btn{
+        font-size: 50px;
+        top: 20px;
+        right: 25px;
+    }
+}
 
 /**@media (max-width: 768px){
     nav{
