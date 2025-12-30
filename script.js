@@ -13,7 +13,7 @@ triggerButtons.forEach(btn => {
 });**/
 const modal = document.getElementById("contactModal");
 const triggers = document.querySelectorAll(".trigger-modal");
-const closeBtn = document.querySelector(".close-btn");
+//const closeBtn = document.querySelector(".close-btn");
 
 triggers.forEach(btn => {
     btn.onclick = function() {
@@ -22,10 +22,10 @@ triggers.forEach(btn => {
     }
 });
 
-closeBtn.onclick = function() {
-    modal.style.display = "none";
-    document.body.style.overflow = "auto"; // Unlocks the main page
-        }
+//closeBtn.onclick = function() {
+    //modal.style.display = "none";
+    //document.body.style.overflow = "auto"; // Unlocks the main page
+       // }
 
 window.onclick = function(event){
     if (event.target == modal){
