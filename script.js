@@ -32,7 +32,7 @@ window.onclick = function(event){
         modal.style.display = "none";
     }
 }
-  
+  /**
 //Get the button
 const backToTopBtn = document.getElementById("backToTop");
 if (backToTopBtn){
@@ -61,7 +61,7 @@ function openModal() {
 function closeModal() {
     modal.style.display = "none";
     document.body.style.overflow = "auto"; // This restores scrolling
-        }
+        }**/
 // Wait for the page to fully load
 document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById("contactModal");
