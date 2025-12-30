@@ -36,4 +36,14 @@ if (backToTopBtn){
         behavior: 'smooth'
     });
  };
+}// When opening the modal
+function openModal() {
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden"; // This stops the background from moving
 }
+
+// When closing the modal
+function closeModal() {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto"; // This restores scrolling
+        }
