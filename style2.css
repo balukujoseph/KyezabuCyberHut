@@ -327,7 +327,7 @@ p{
     margin-bottom: 25px;
 }
 @media (max-width:768px){
-    .modal-content{
+    /*.modal-content{
         width:98% !important;
         max-width: none;
         padding: 60px 30px !important;
@@ -348,7 +348,7 @@ p{
     .modal-content h2{
         font-size: 3rem !important;
         margin-bottom: 40px;
-    }
+    }*/
     .close-btn{
         font-size: 50px;
         top: 20px;
@@ -397,7 +397,7 @@ p{
     transform: scale(0.95); /* Tactile feedback when pressed */
 }
 @media (max-width: 768px) {
-    .modal {
+    /*.modal {
         align-items: flex-start; /* Starts at the top */
         overflow-y: auto; /* Allows the form to scroll if it's longer than the screen */
     }
@@ -445,7 +445,7 @@ p{
     font-size: 2.5rem !important;
     margin-right: 15px;
 }
-/**@media (max-width: 768px){
+@media (max-width: 768px){
     nav{
         padding: 15px 5%;
     }
@@ -482,7 +482,7 @@ p{
     max-width: 450px;
     padding: 25px;
     margin: 10px;
-}**/
+}
 
 /* --MOBILE OPTIMIZATION BLOCK--*/
 
