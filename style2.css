@@ -33,7 +33,7 @@ nav{
     color: var(--primary);
 }
 nav ul{display: flex; list-style: none;}
-nav ul li{margin-left: 2rem;}
+nav ul li{margin-left: 3rem;}
 nav ul li a{color: white; text-decoration: none;}
 
 /*Hero sectio*/
@@ -257,6 +257,23 @@ card h3{
 .email-link{
     color: #00d4ff;
 }
+/* Specifically target the email/envelope icon */
+.fa-envelope, 
+.fa-whatsapp,
+.fa-paper-plane {
+    font-size: 5rem !important; /* Extremely large and magnified */
+    color: #00d4ff; /* Your signature brand blue */
+    margin-bottom: 20px;
+    display: inline-block;
+    filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5)); /* Adds a slight "glow" */
+}
+
+/* If the icon is inside a button, we scale it slightly differently */
+.btn-main i {
+    font-size: 2.5rem !important;
+    vertical-align: middle;
+    margin-right: 15px;
+    }
 .contact-icons a:hover{
     opacity: 0.7;
 }
