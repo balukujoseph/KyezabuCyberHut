@@ -238,3 +238,42 @@ footer-links a {
     background-color: var(--secondary);
     transform: translateY(-5px);
 }
+
+@media (max-width: 768px){
+    nav{
+        padding: 15px 5%;
+    }
+    nav ul{
+        display:none;
+        flex-direction: column;
+        background: #0e0e17;
+        position:absolute;
+        top:70px;
+        left:0;
+        width: 100px;
+        padding: 20px;
+        border-bottom: 2px solid var(--primary);
+    }
+    nav ul.active{
+        display: flex;
+    }
+
+@media (max-width: 600px){
+    .services-container{
+        padding: 40px 20px;
+    }
+    .card{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .card h3{
+        font-size: 1.2rem;
+    }
+}
+.modal-content{
+    width: 90%;
+    max-width: 450px;
+    padding: 25px;
+    margin: 10px;
+}
