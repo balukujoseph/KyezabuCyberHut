@@ -65,7 +65,7 @@ window.onclick = function(event){
     if (event.target == modal){
         modal.style.display = "none";
     }
-}
+        }
   /**
 //Get the button
 const backToTopBtn = document.getElementById("backToTop");
