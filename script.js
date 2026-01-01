@@ -32,7 +32,7 @@ async function handleSubmit(event) {
   });
 }
 
-form.addEventListener("submit", handleSubmit);//Get the modal and close button
+/*form.addEventListener("submit", handleSubmit);//Get the modal and close button
 /**const modal = document.getElementById("contactModal");
 const closeBtn = document.querySelector(".close-btn");
 
