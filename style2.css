@@ -112,7 +112,7 @@ card h3{
 }
 /* Transform Modal into a Static Page */
 .modal {
-    display: none; /* Controlled by JS */
+    display: block ! important; /* Controlled by JS */
     position: fixed;
     top: 0;
     left: 0;
