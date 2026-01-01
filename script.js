@@ -97,7 +97,7 @@ function closeModal() {
     document.body.style.overflow = "auto"; // This restores scrolling
         }**/
 // Wait for the page to fully load
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById("contactModal");
     const closeBtn = document.querySelector(".close-btn");
 
