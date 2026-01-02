@@ -465,29 +465,6 @@ nav {
         margin: 10px auto;
         display: block !important;        /* Ensures it stands alone */
     }
-    .close-btn{
-        font-size: 50px;
-        top: 20px;
-        right: 25px;
-    }
-   /* h1{
-        font-size: 3.5rem !important;
-        line-height: 1.1;
-        font-weght: 900;
-        margin-bottom: 40px;
-    }
-    h2,h3{
-        font-size: 2.8rem !important;
-        line-height: 1.2;
-        margin-bottom: 20px;
-        color: #00d4ff;
-    }
-   /* p, li, label{
-        font-size: 1.8rem !important;
-        line-height: 1.6;
-        font-weight: 500;
-        color: #ffffff;
-        margin-bottom: 30px;
-    }*/
+
         }
 
