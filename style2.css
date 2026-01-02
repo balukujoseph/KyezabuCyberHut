@@ -1,4 +1,25 @@
+/* Standardizing the look of the form inputs */
+#contactForm input[type="email"],
+#contactForm input[type="text"],
+#contactForm textarea {
+    width: 100%;
+    padding: 20px !important;    /* Big padding for a bold look */
+    font-size: 1.2rem !important; /* Large text */
+    background: #1a1a1a;
+    border: 2px solid #333;      /* Subtle border until clicked */
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-family: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
 
+/* The "Active" state when the user is typing */
+#contactForm input[type="email"]:focus {
+    outline: none;
+    border-color: #00d4ff;       /* Glows blue when typing */
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
 :root{
     --primary: #00d4ff;
     --secondary: #0055ff;
