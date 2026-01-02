@@ -449,3 +449,21 @@ nav {
     background: #00d4ff;
     color: #0a0e17;
 }
+/* Mobile Optimization */
+@media screen and (max-width: 768px) {
+    /* Target the container that holds your cards */
+    .card-container, .grid-container { 
+        display: flex;
+        flex-direction: column; /* Stacks cards vertically */
+        align-items: center;    /* Centers them */
+        gap: 20px;              /* Adds space between cards */
+    }
+
+    /* Make each card take up most of the screen width */
+    .card {
+        width: 90% !important;
+        margin: 10px auto;
+        display: block;        /* Ensures it stands alone */
+    }
+        }
+
