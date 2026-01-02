@@ -65,10 +65,13 @@ body{
     color: var(--text);
     line-height: 1.6;
 }
+header{
+    position: fixed;
+}
 
 /*Navigation*/
 header, nav{
-    display: fixed;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 10%;
