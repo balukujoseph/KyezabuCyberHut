@@ -25,7 +25,7 @@ async function handleSubmit(event) {
       document.getElementById("contactModal").style.display = "none";
       document.body.style.overflow = "auto";
     } else {
-      alert("Oops! Formspree didn't like that. Check your Form ID.");
+      alert("Oops! Check your input fields");
     }
   }).catch(error => {
     alert("Error: Connection failed.");
