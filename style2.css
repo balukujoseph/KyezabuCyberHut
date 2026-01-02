@@ -67,7 +67,7 @@ body{
 }
 
 /*Navigation*/
-nav{
+header, nav{
     display: fixed;
     justify-content: space-between;
     align-items: center;
