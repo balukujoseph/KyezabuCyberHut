@@ -20,6 +20,31 @@
     border-color: #00d4ff;       /* Glows blue when typing */
     box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
 }
+.logo-container {
+    display: flex;
+    align-items: center; /* Vertically centers the text with the logo */
+    gap: 15px;           /* Space between the image and the text */
+}
+
+.logo-img {
+    height: 50px;        /* Adjust based on your preference */
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.5rem;   /* Magnified size */
+    font-weight: 900;    /* Extra bold */
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Ensure they stay together on mobile */
+@media screen and (max-width: 768px) {
+    .logo-text {
+        font-size: 1.2rem;
+    }
+    }
 :root{
     --primary: #00d4ff;
     --secondary: #0055ff;
