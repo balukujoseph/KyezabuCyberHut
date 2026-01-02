@@ -118,3 +118,21 @@ function openModal() {
     // Prevents the background from scrolling while they are typing
     document.body.style.overflow = "hidden";
     }
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", function(event) {
+    const emailInput = document.getElementById("userEmail");
+    const emailValue = emailInput.value;
+
+    // This is a "Regex" - it checks if the email looks real (name@domain.com)
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(emailValue)) {
+        event.preventDefault(); // STOPS the form from sending
+        alert("That email doesn't look right. Please check it!");
+        emailInput.style.borderColor = "red"; // Visual feedback
+        return;
+    }
+
+    // If it's valid, the rest of your Fetch/Formspree code runs here...
+});
