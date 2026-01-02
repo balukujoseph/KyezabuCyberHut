@@ -514,4 +514,16 @@ nav {
     }
 
         }
+/* When the browser detects an error automatically */
+input:invalid {
+    border: 2px solid #ff4b2b !important; /* High-impact red */
+}
 
+/* Optional: Add a small error message style */
+.error-text {
+    color: #ff4b2b;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    }
