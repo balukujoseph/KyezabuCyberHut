@@ -482,7 +482,7 @@ nav {
         margin-bottom: 20px;
         color: #00d4ff;
     }
-    p, li, label{
+    p, li{
         font-size: 1.8rem !important;
         line-height: 1.6;
         font-weight: 500;
