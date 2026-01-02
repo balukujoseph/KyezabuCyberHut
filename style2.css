@@ -453,17 +453,17 @@ nav {
 @media screen and (max-width: 768px) {
     /* Target the container that holds your cards */
     .card-container, .grid-container { 
-        display: flex;
-        flex-direction: column; /* Stacks cards vertically */
-        align-items: center;    /* Centers them */
-        gap: 20px;              /* Adds space between cards */
+        display: flex !important;
+        flex-direction: column !important; /* Stacks cards vertically */
+        align-items: center !important;    /* Centers them */
+        gap: 20px !important;              /* Adds space between cards */
     }
 
     /* Make each card take up most of the screen width */
     .card {
         width: 90% !important;
         margin: 10px auto;
-        display: block;        /* Ensures it stands alone */
+        display: block !important;        /* Ensures it stands alone */
     }
         }
 
