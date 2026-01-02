@@ -66,7 +66,11 @@
                 <p>Leave your details and our tech team will reach out within 24 hours.</p>
                 <form action="https://formspree.io/f/mvzggqrk" method="POST" id="contactForm">
                     <input type="text" name="Name:" placeholder="Full Name" required>
-                    <input type="email" name="Email:"placeholder="Email Address" required>
+                    <input  type="email" 
+                         name="email" 
+                         placeholder="YOUR EMAIL"  required 
+                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"title="Please enter a valid email address">
+
                     <select name="Service:">
                         <option value="security">Cybersecurity</option>
                         <option value="networking">Networking</option>
