@@ -111,3 +111,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+function openModal() {
+    // Finds the form div by its ID and makes it visible
+    document.getElementById("contactModal").style.display = "block";
+    
+    // Prevents the background from scrolling while they are typing
+    document.body.style.overflow = "hidden";
+    }
