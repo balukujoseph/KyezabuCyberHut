@@ -1,40 +1,4 @@
-.modal-content {
-    width: 90% !important; /* Stays within the screen */
-    max-width: 400px;
-    margin: 10% auto;
-    padding: 20px !important;
-    border-radius: 15px;
-}
 
-/* Ensure the form itself doesn't have a fixed width */
-#contactForm {
-    width: 100% !important;
-    display: flex;
-    flex-direction: column;
-}
-/* Standardizing the look of the form inputs */
-#contactForm input[type="email"],
-#contactForm input[type="text"],
-#contactForm textarea {
-    width: 100%;
-    padding: 20px !important;    /* Big padding for a bold look */
-    font-size: 16px !important; /* Large text */
-    background: #1a1a1a;
-    border: 2px solid #333;      /* Subtle border until clicked */
-    color: white;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    box-sizing:border-box;
-    font-family: inherit;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* The "Active" state when the user is typing */
-#contactForm input[type="email"]:focus {
-    outline: none;
-    border-color: #00d4ff;       /* Glows blue when typing */
-    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
-}
 .logo-container {
     display: flex;
     align-items: center; /* Vertically centers the text with the logo */
