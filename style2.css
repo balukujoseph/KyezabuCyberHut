@@ -511,7 +511,19 @@ input:invalid {
         margin: 10px;
     }
     .card h3{
-        font-size: 1.2rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
     }
-    
+    .card p{
+        font-size: 0.85rem !important;
+        line-height: 1.4;
+        color: #aaaaaa;
+        margin-botttom: 15px;
+    }
+    .card a, .card button{
+        font-size: 0.75rem !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
 }
