@@ -529,4 +529,19 @@ input:invalid {
         font-weight: 600;
         text-transform: uppercase;
     }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 40px 5%;
+        align-items: start;
+    }
+    .card{
+        width: 100%;
+        min-height:400px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-cntent: center;
+    }
 }
