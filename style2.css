@@ -490,12 +490,12 @@ input:invalid {
     }
     main, .container{
         padding: 40px 10% !important;
-        h1,h2,p{
+        /*h1,h2,p{
         font-size: 2.5rem !important;
         font-weight:900;
-        margin-bottom: 30px;
+        margin-bottom: 30px;*/
     }
-    /*h1,h2{
+    h1,h2{
         font-size: 2.5rem !important;
         font-weight:900;
         margin-bottom: 30px;
@@ -507,7 +507,7 @@ input:invalid {
         font-size: 1rem !important;
         line-height: 1.6;
         max-width: 800px;
-    }*/
+    }
     section{
         margin-bottom: 60px !important;
     }
