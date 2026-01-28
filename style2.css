@@ -466,21 +466,43 @@ input:invalid {
     }
 
 @media screen and (min-width:1024px){
+    header{
+        padding: 10px 60px !important;
+    }
     .logo-text{
         font-size: 1.2rem !important;
     }
     nav a, .contact{
-        font-size: 1rem !important;
+        font-size: 0.8rem !important;
         letter-spacing: 1px;
+       
     }
     #contavtForm input,
     #contactForm textarea,
     #contactForm .btn-main{
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         padding: 12px !important;
+         padding: 10px 20px !important;
     }
     .modal-content{
         max-width: 450px;
         margin: 5% auto;
     }
+    main, .container{
+        padding: 40px 10% !important;
+    }
+    h1{
+        font-size: 2.5rem !important;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 1rem !important;
+    }
+    p{
+        font-size: 1rem !important;
+        line-height: 1.6;
+        max-width: 800px;
+    }
+    section{
+        margin-bottom: 60px !important;
 }
