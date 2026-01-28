@@ -550,7 +550,7 @@ input:invalid {
         justify-cntent: center;
     }
     #contactForm button,
-    .card .btn-main{
+    .btn-main{
         font-size: 1rem !important;
         padding: 12px 30px !important;
         width: auto !important;
