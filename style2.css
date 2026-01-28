@@ -477,7 +477,7 @@ input:invalid {
         letter-spacing: 1px;
        
     }
-    #contavtForm input,
+    #contactForm input,
     #contactForm textarea,
     #contactForm .btn-main{
         font-size: 0.9rem !important;
@@ -563,7 +563,7 @@ input:invalid {
     .subtitle{
         align-items: center;
     }
-     #contavtForm input,
+     #contactForm input,
     #contactForm textarea{
         font-size: 0.9rem !important;
         padding: 10 15px !important;
