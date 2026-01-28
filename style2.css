@@ -505,4 +505,13 @@ input:invalid {
     }
     section{
         margin-bottom: 60px !important;
+    }
+    .card{
+        padding: 20px !important;
+        margin: 10px;
+    }
+    .card h3{
+        font-size: 1.2rem !important;
+    }
+    
 }
