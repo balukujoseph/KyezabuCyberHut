@@ -507,18 +507,21 @@ input:invalid {
         margin-bottom: 60px !important;
     }
     .card{
-        padding: 20px !important;
+        padding: 30px !important;
         margin: 10px;
+        border: 1px solid #333;
+        
     }
     .card h3{
-        font-size: 1.1rem !important;
-        margin-bottom: 5px;
+        font-size: 1.4rem !important;
+        margin-bottom: 10px;
         letter-spacing: 0.5px;
+        font-weight:800;
     }
     .card p{
-        font-size: 0.85rem !important;
-        line-height: 1.4;
-        color: #aaaaaa;
+        font-size: 1.05rem !important;
+        line-height: 1.5;
+        color: #efefef;
         margin-botttom: 15px;
     }
     .card a, .card button{
