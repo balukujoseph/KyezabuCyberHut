@@ -559,4 +559,7 @@ input:invalid {
         margin: 0 auto;
         border-radius: 4px;
     }
+    .subtitle{
+        align-items: center;
+    }
 }
