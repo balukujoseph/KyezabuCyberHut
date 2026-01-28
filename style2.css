@@ -563,7 +563,7 @@ input:invalid {
     .subtitle{
         align-items: center;
     }
-     #contactForm input,
+    #contactForm input,
     #contactForm textarea{
         font-size: 0.9rem !important;
         padding: 10 15px !important;
@@ -571,5 +571,5 @@ input:invalid {
         font-size: 16px !important;
         border: 1px solid #444;
     }
-    }
+    
 }
