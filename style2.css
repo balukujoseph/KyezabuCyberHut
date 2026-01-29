@@ -691,3 +691,31 @@ input:invalid {
        z-index: 2;
    }
 }
+
+@media screen and (max-width: 768px){
+    .team-grid{
+        display:flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        gap: 20px !important;
+        padding: 40px 20px !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+    .team-card{
+        flex: 0 0 280px !important;
+        width: 280px !important;
+        height: 400px !important;
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        box-sizing: border-box !important;
+        border: 2px solid #fff;
+    }
+    .team-image{
+        width: 150px !important;
+        height: 150px !important;
+        margin: 0 auto !important;
+        object-fit: cover;
+    }
+}
