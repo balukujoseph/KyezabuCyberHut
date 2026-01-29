@@ -679,6 +679,7 @@ input:invalid {
         object-fit: cover;
     }
      .team-grid{
+        flex-shrink:0 !important;
         display:flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
@@ -718,5 +719,8 @@ input:invalid {
         font-size: 0.9rem !important;
         letter-spacing: 1px;
     }
+     .team-grid::-webkit-scrollbar-thumb{
+        background: #444;
+        border-radius: 10px;
 }
 
