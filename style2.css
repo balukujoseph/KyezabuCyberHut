@@ -674,20 +674,18 @@ input:invalid {
         margin-bottom: 5px;
     }
     .team-card{
-    position:relative;
-    overflow:hidden;
-}
-.team-card img{
-    position:absolute;
-    top:0; left:0;
-    width:80%; height: 80%;
-    z-index: 1;
-    opacity: 0.5;
-}
-.team-card h3, .team-card p{
-    position: relative;
-    z-index: 2;
-}
-
-    
+        position:relative;
+        overflow:hidden;
+   }
+   .team-card img{
+        position:absolute;
+        top:0; left:0;
+        width:80%; height: 80%;
+        z-index: 1;
+        opacity: 0.5;
+   }
+   .team-card h3, .team-card p{
+       position: relative;
+       z-index: 2;
+   }
 }
