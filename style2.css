@@ -593,14 +593,11 @@ input:invalid {
         transform: scale(1.05);
     }
    .team-card{
-        flex-shrink:0 !important;
-        flex: 0 0 40% !important;
-        height:
-        width:
+        flex: 0 0 200px !important;
+        height:auto !important;
         box-shadow: none;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: space-between;
         border: none;
         background:none !important;
         
@@ -614,11 +611,7 @@ input:invalid {
         overflow-x: auto !important;
         gap: 30px !important;
         padding: 40px 5% 60px;
-        scroll-snap-align: start;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: thin;
-        width: 100vw !important;
-        scroll-behavior: smooth;
+        
     }
     .team-grid::-webkit-scrollbar-thumb{
         background: #444;
@@ -633,11 +626,11 @@ input:invalid {
         text-align: center;
     }
     .team-info h3{
-        font-size: 1.4rem;
+        font-size: 0.8rem;
         margin: 5px 0 ;
     }
     team-info p{
-        font-size: 0.9rem;
+        font-size: 0.4rem;
         opacity: 0.8;
     }
     .team-card{
