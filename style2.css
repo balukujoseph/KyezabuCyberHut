@@ -712,7 +712,7 @@ input:invalid {
         box-sizing: border-box !important;
         border: 2px solid #fff;
     }
-    .team-image{
+    .team-card img.team-image{
         width: 150px !important;
         height: 150px !important;
         margin: 0 auto !important;
