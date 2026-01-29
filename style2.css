@@ -470,6 +470,22 @@ input:invalid {
     margin-bottom: 10px;
     }
 
+.team-card{
+    position:relative;
+    overflow:hidden;
+}
+.team-card img{
+    position:absolute;
+    top:0; left:0;
+    width:100%; height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+.team-card h3, .team-card p{
+    position: relative;
+    z-index: 2;
+}
+
 @media screen and (min-width:1024px){
     header{
         padding: 10px 60px !important;
