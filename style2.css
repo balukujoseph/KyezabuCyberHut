@@ -519,7 +519,7 @@ nav {
         font-size: 16px !important;
         border: 1px solid #444;
     }
-    .team-img{
+    .team-image{
         width:180px !important;
         height: 180px !important;
         border-radius: 50%;
@@ -676,7 +676,7 @@ input:invalid {
         padding: 25px !important;
         box-sizing: border-box !important;
     }
-    .team-img{
+    .team-image{
         width: 180px !important;
         height:180px !important;
         margin: 0 auto !important;
