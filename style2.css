@@ -651,7 +651,7 @@ input:invalid {
    }
 }
 
-/*@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .team-grid{
         display:flex !important;
         flex-direction: row !important;
@@ -661,7 +661,7 @@ input:invalid {
         padding: 40px 20px !important;
         -webkit-overflow-scrolling: touch !important;
     }
-    .team-card{
+    /*.team-card{
         flex: 0 0 280px !important;
         width: 280px !important;
         height: 400px !important;
