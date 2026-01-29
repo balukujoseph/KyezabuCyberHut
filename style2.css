@@ -633,8 +633,8 @@ input:invalid {
     .team-card{
         flex-shrink:0 !important;
         flex: 0 0 40% !important;
-        height: 450px !important;
-        width: 350px !important;
+        height: 400px !important;
+        width: 300px !important;
         scroll-snap-align: start;
         display: flex !important;
         flex-direction: column !important;
@@ -680,7 +680,7 @@ input:invalid {
 .team-card img{
     position:absolute;
     top:0; left:0;
-    width:100%; height: 100%;
+    width:80%; height: 80%;
     z-index: 1;
     opacity: 0.5;
 }
