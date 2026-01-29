@@ -606,7 +606,7 @@ input:invalid {
         filter: grayscale(0%);
         transform: scale(1.05);
     }
-    /*.team-card{
+    .team-card{
         flex-shrink:0 !important;
         flex: 0 0 40% !important;
         height: 450px !important;
@@ -617,10 +617,10 @@ input:invalid {
         justify-content: space-between;
         border: 2px solid #fff;
         background:#000;
-        /*
+        
         scroll-snap-align: center;
         min-height:500px;
-    }*/
+    }
     /*.team-grid{
         display:flex !important;
         flex-direction: row !important;
