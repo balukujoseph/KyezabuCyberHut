@@ -609,9 +609,10 @@ input:invalid {
     .team-card{
         flex: 0 0 40% !important;
         height: 450px !important;
+        width: 350px !important;
         scroll-snap-align: start;
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         justify-content: space-between;
         border: 2px solid #fff;
         background:#000;
@@ -621,13 +622,14 @@ input:invalid {
     }*/
     .team-grid{
         display:flex !important;
+        flex-direction: row !important;
         flex-wrap: nowrap !important;
         overflow-x: auto !important;
-        gap: 30px;
+        gap: 30px !important;
         padding: 40px 5% 60px;
         scroll-snap-type: x mandatory;
         scrollbar-width: thin;
-        width: 100vw;
+        width: 100vw !important;
         scroll-behavior: smooth;
     }
     .team-grid::-webkit-scrollbar-thumb{
