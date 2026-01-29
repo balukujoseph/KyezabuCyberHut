@@ -651,4 +651,29 @@ input:invalid {
         margin-bottom: 30px;
     }
 }
-
+@media screen and (max-width:760px){
+    #team{
+        display: block !important;
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+    .team-grid{
+        display:flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        width: max-content !important;
+        overflow-x: auto !important;
+        gap: 20px !important;
+        padding: 40px 20px !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    .team-card{
+        flex: 0 0 280px !important;
+        height:420px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        padding: 25px !important;
+        box-sizing: border-box !important;
+    }
+}
