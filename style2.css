@@ -676,4 +676,15 @@ input:invalid {
         padding: 25px !important;
         box-sizing: border-box !important;
     }
+    .team-img{
+        width: 180px !important;
+        height:180px !important;
+        margin: 0 auto !important;
+        object-fit:cover !important;
+        display: block !important;
+    }
+    .team-info{
+        margin-top: auto !important;
+        text-align: center;
+    }
 }
