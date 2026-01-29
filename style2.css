@@ -621,7 +621,7 @@ input:invalid {
         scroll-snap-align: center;
         min-height:500px;
     }
-    /*.team-grid{
+    .team-grid{
         display:flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
@@ -632,7 +632,7 @@ input:invalid {
         scrollbar-width: thin;
         width: 100vw !important;
         scroll-behavior: smooth;
-    }*/
+    }
     .team-grid::-webkit-scrollbar-thumb{
         background: #444;
         border-radius: 10px;
