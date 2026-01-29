@@ -412,6 +412,65 @@ nav {
     background: #00d4ff;
     color: #0a0e17;
 }
+/* Mobile Optimization */
+@media screen and (max-width: 768px) {
+    /* Target the container that holds your cards */
+    .card-container, .grid-container { 
+        display: flex !important;
+        flex-direction: column !important; /* Stacks cards vertically */
+        align-items: center !important;    /* Centers them */
+        gap: 20px !important;              /* Adds space between cards */
+    }
+
+    /* Make each card take up most of the screen width */
+    .card {
+        width: 90% !important;
+        margin: 10px auto;
+        display: block !important;        /* Ensures it stands alone */
+    }
+
+        }
+/* When the browser detects an error automatically */
+input:invalid {
+    border: 2px solid #ff4b2b !important; /* High-impact red */
+}
+
+/* Optional: Add a small error message style */
+.error-text {
+    color: #ff4b2b;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    }
+
+@media (max-width:768px){   
+   
+    .close-btn{
+        font-size: 50px;
+        top: 20px;
+        right: 25px;
+    }
+    h1{
+        font-size: 3.5rem !important;
+        line-height: 1.1;
+        font-weght: 900;
+        margin-bottom: 40px;
+    }
+    h2,h3{
+        font-size: 2.8rem !important;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        color: #00d4ff;
+    }
+    li, label{
+        font-size: 1.8rem !important;
+        line-height: 1.6;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+}
 
 @media screen and (min-width:1024px){
     header{
@@ -526,18 +585,18 @@ nav {
         object-fit: cover;
         margin: 0 auto;
         border: 4px solid #fff;
-        filter: grayscale(100%);
+        /*filter: grayscale(100%);*/
         transition: 0.3s ease;
     }
     .team-card:hover .team-img{
-        filter: grayscale(0%);
+        /*filter: grayscale(0%);*/
         transform: scale(1.05);
     }
     .team-card{
         flex-shrink:0 !important;
         flex: 0 0 40% !important;
-        height: 350px !important;
-        width: 250px !important;
+        height:
+        width:
         scroll-snap-align: start;
         display: flex !important;
         flex-direction: column !important;
@@ -592,65 +651,7 @@ nav {
        z-index: 2;
    }
 }
-/* Mobile Optimization */
-@media screen and (max-width: 768px) {
-    /* Target the container that holds your cards */
-    .card-container, .grid-container { 
-        display: flex !important;
-        flex-direction: column !important; /* Stacks cards vertically */
-        align-items: center !important;    /* Centers them */
-        gap: 20px !important;              /* Adds space between cards */
-    }
 
-    /* Make each card take up most of the screen width */
-    .card {
-        width: 90% !important;
-        margin: 10px auto;
-        display: block !important;        /* Ensures it stands alone */
-    }
-
-        }
-/* When the browser detects an error automatically */
-input:invalid {
-    border: 2px solid #ff4b2b !important; /* High-impact red */
-}
-
-/* Optional: Add a small error message style */
-.error-text {
-    color: #ff4b2b;
-    font-size: 0.8rem;
-    font-weight: bold;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    }
-
-@media (max-width:768px){   
-   
-    .close-btn{
-        font-size: 50px;
-        top: 20px;
-        right: 25px;
-    }
-    h1{
-        font-size: 3.5rem !important;
-        line-height: 1.1;
-        font-weght: 900;
-        margin-bottom: 40px;
-    }
-    h2,h3{
-        font-size: 2.8rem !important;
-        line-height: 1.2;
-        margin-bottom: 20px;
-        color: #00d4ff;
-    }
-    li, label{
-        font-size: 1.8rem !important;
-        line-height: 1.6;
-        font-weight: 500;
-        color: #ffffff;
-        margin-bottom: 30px;
-    }
-}
 @media screen and (max-width:760px){
     #team{
         display: block !important;
