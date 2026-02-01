@@ -627,7 +627,7 @@ input:invalid {
         border: none ;
     }
     .team-img{
-        width: 100%;
+        width: 130px;
         max-width: 130px;
         height: 130px;
         margin-bottom: 10px;
@@ -644,12 +644,11 @@ input:invalid {
         margin: 0 auto 10px auto;
         display: block;
         object-fit: cover;
-        border-radius: 50%;
     }
     #team .team-card{
         flex: 0 0 45%;
-        width: 45%;
-        max-width: 45%;
+        width: 50%;
+        max-width: 50%;
         background: transparent;
     }
 /*}*/
