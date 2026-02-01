@@ -583,7 +583,7 @@ input:invalid {
     }
 }
 /*team*/
-#team{
+/*#team{
     width: 100%;
     padding: 60px 0;
     overflow: hidden;
@@ -613,7 +613,7 @@ input:invalid {
     height: 160px;
     object-fit: cover;
     display: block;
-}
+}*/
 /*--MOBILE--*/
 /*@media screen and (max-width: 768px){*/
     .team-card{
