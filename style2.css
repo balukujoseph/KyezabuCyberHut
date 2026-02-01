@@ -617,9 +617,9 @@ input:invalid {
 /*--MOBILE--*/
 /*@media screen and (max-width: 768px){*/
     .team-card{
-        flex:0 0 50%;
-        width: 50% ;
-        max-width: 50% ;
+        flex:0 0 45%;
+        width: 45% ;
+        max-width: 45% ;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
@@ -634,9 +634,9 @@ input:invalid {
         object-fit: cover;
         border-radius: 5px;
     }
-    .team-info h3 { font-size: 1.3rem;}
-    .team-info p { font-size: 1.0rem;}
-    #team .team-grid .team-card img.team-img{
+    .team-info h3 { font-size: 1.5rem;}
+    .team-info p { font-size: 1.3rem;}
+    #team .team-grid  img.team-img{
         width: 130px;
         min-width: 130px ;
         height: 130px;
