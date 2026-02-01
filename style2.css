@@ -636,3 +636,16 @@ input:invalid {
     .team-img:hover{
         transform: scale(1.05);
     }
+    .team-info h3{
+        font-size:1.1rem !important;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        line-height: 1.2;
+    }
+    .team-info p {
+        font-size: 0.8rem !important;
+        color: #777;
+        margin: 0;
+    }
+}
