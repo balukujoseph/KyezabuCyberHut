@@ -628,7 +628,7 @@ input:invalid {
         object-fit: cover !important;
         border-radius: 5px;
     }
-    .team-info h3 { font-size: 0.9rem;}
+    .team-info h3 { font-size: 0.9rem; color: red !important;}
     .team-info p { font-size: 0.75rem;}
     #team .team-grid .team-card img.team-img{
         width: 130px !important;
