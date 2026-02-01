@@ -615,7 +615,7 @@ input:invalid {
     display: block;
 }*/
 /*--MOBILE--*/
-/*@media screen and (max-width: 768px){*/
+@media screen and (max-width: 768px){
     .team-card{
         flex:0 0 45%;
         width: 45% ;
@@ -651,7 +651,7 @@ input:invalid {
         max-width: 50%;
         background: transparent;
     }
-/*}*/
+}
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
     .team-grid{
