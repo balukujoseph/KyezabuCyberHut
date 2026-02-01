@@ -488,12 +488,15 @@ input:invalid {
     #contactForm textarea,
     #contactForm .btn-main{
         font-size: 0.9rem !important;
-        padding: 12px !important;
+        margin-bottom: 15px !important;
          padding: 10px 20px !important;
     }
-    .modal-content{
-        max-width: 450px;
-        margin: 5% auto;
+    #contactForm .modal-content{
+        width: 500px !important;
+        max-width: 95%;
+        margin: 50px auto !important;
+        padding: 40px !important;
+        border-radius:15px;
     }
     main, .container{
         padding: 40px 10% !important;
