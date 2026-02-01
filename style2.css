@@ -677,3 +677,6 @@ input:invalid {
         margin: 0;
     }
 }
+.team-img{
+    width: 50px !important;
+}
