@@ -583,7 +583,7 @@ input:invalid {
     }
 }
 /*team*/
-/*#team{
+#team{
     width: 100%;
     padding: 60px 0;
     overflow: hidden;
@@ -613,8 +613,8 @@ input:invalid {
     height: 160px;
     object-fit: cover;
     display: block;
-}*/
-/*--MOBILE--*/
+}
+/*--MOBILE--
 @media screen and (max-width: 768px){
     .team-card{
         flex:0 0 45%;
@@ -651,7 +651,7 @@ input:invalid {
         max-width: 50%;
         background: transparent;
     }
-}
+}*/
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
     .team-grid{
