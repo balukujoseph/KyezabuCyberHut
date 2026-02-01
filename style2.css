@@ -28,7 +28,7 @@ p{
     .logo-text {
         font-size: 1.2rem;
     }
-    }
+}
 :root{
     --primary: #00d4ff;
     --secondary: #0055ff;
@@ -429,7 +429,7 @@ nav {
         display: block !important;        /* Ensures it stands alone */
     }
 
-        }
+}
 /* When the browser detects an error automatically */
 input:invalid {
     border: 2px solid #ff4b2b !important; /* High-impact red */
@@ -442,7 +442,7 @@ input:invalid {
     font-weight: bold;
     margin-top: -10px;
     margin-bottom: 10px;
-    }
+}
 
 @media (max-width:768px){   
    
@@ -609,7 +609,7 @@ input:invalid {
     display: block;
 }
 /*--MOBILE--*/
-/*@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .team-card{
         flex:0 0 40% !important;
         width: 40% !important;
@@ -646,7 +646,7 @@ input:invalid {
         max-width: 45% !important;
         background: transparent !important;
     }
-}*/
+}
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
     .team-grid{
