@@ -609,8 +609,8 @@ input:invalid {
     margin-bottom: 20px;
 }
 .team-img{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     display: block;
 }
