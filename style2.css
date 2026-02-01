@@ -609,13 +609,13 @@ input:invalid {
     margin-bottom: 20px;
 }
 .team-img{
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     display: block;
 }
 /*--MOBILE--*/
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){*/
     .team-card{
         flex:0 0 40% !important;
         width: 40% !important;
@@ -652,7 +652,7 @@ input:invalid {
         max-width: 45% !important;
         background: transparent !important;
     }
-}
+/*}*/
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
     .team-grid{
