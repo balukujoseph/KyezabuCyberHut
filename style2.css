@@ -608,16 +608,25 @@ input:invalid {
 /*--MOBILE--*/
 @media screen and (max-width: 768px){
     .team-card{
-        flex:0 0 45% !important;
+        flex:0 0 40% !important;
+        width: 40% !important;
+        max-width: 40% !important;
         margin-bottom: 30px;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        border: none !important;
     }
     .team-img{
-        width: 140px !important;
-        height: 140px !important;
+        width: 100% !important;
+        max-width: 130px !important;
+        height: 130px !important;
         margin-bottom: 10px;
+        object-fit: cover !important;
+        border-radius: 5px;
     }
-    .team-info h3 { font-size:1.1rem;}
-    .team-info p { font-size: 0.8rem;}
+    .team-info h3 { font-size: 0.9rem;}
+    .team-info p { font-size: 0.75rem;}
 }
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
