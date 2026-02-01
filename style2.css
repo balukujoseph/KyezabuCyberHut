@@ -630,6 +630,22 @@ input:invalid {
     }
     .team-info h3 { font-size: 0.9rem;}
     .team-info p { font-size: 0.75rem;}
+    #team .team-grid .team-card img.team-img{
+        width: 130px !important;
+        min-width: 130px !important;
+        height: 130px !important;
+        min-height: 130px !important;
+        margin: 0 auto 10px auto !important;
+        display: block !important;
+        object-fit: cover !important;
+        border-radius: 50% !important;
+    }
+    #team .team-card{
+        flex: 0 0 45% !important;
+        width: 45% !important;
+        max-width: 45% !important;
+        background: transparent !important;
+    }
 }
 /*--DESKTOP--*/
 @media screen and (min-width: 1024px){
