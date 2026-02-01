@@ -578,7 +578,45 @@ input:invalid {
         font-size: 16px !important;
         border: 1px solid #444;
     }
+}
+
+@media screen and (max-width:768px){
+    #team{
+        display: block !important;
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+    .team-grid{
+        display:flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        width: max-content !important;
+        overflow-x: auto !important;
+        gap: 20px !important;
+        padding: 40px 20px !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    .team-card{
+        flex: 0 0 280px !important;
+        height:420px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        padding: 25px !important;
+        box-sizing: border-box !important;
+    }
     .team-image{
+        width: 180px !important;
+        height:180px !important;
+        margin: 0 auto !important;
+        object-fit:cover !important;
+        display: block !important;
+    }
+    .team-info{
+        margin-top: auto !important;
+        text-align: center;
+    }
+        .team-image{
         width:180px !important;
         height: 180px !important;
         border-radius: 50%;
@@ -650,40 +688,4 @@ input:invalid {
    }
 }
 
-@media screen and (max-width:768px){
-    #team{
-        display: block !important;
-        overflow: hidden !important;
-        width: 100% !important;
-    }
-    .team-grid{
-        display:flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        width: max-content !important;
-        overflow-x: auto !important;
-        gap: 20px !important;
-        padding: 40px 20px !important;
-        -webkit-overflow-scrolling: touch;
-    }
-    .team-card{
-        flex: 0 0 280px !important;
-        height:420px !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: space-between !important;
-        padding: 25px !important;
-        box-sizing: border-box !important;
-    }
-    .team-image{
-        width: 180px !important;
-        height:180px !important;
-        margin: 0 auto !important;
-        object-fit:cover !important;
-        display: block !important;
-    }
-    .team-info{
-        margin-top: auto !important;
-        text-align: center;
-    }
-}
+@media screen and (max-width: 768px){
