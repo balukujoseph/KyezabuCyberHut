@@ -617,40 +617,40 @@ input:invalid {
 /*--MOBILE--*/
 /*@media screen and (max-width: 768px){*/
     .team-card{
-        flex:0 0 40% !important;
-        width: 40% !important;
-        max-width: 40% !important;
+        flex:0 0 40%;
+        width: 40% ;
+        max-width: 40% ;
         margin-bottom: 30px;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        border: none !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none ;
     }
     .team-img{
-        width: 100% !important;
-        max-width: 130px !important;
-        height: 130px !important;
+        width: 100%;
+        max-width: 130px;
+        height: 130px;
         margin-bottom: 10px;
-        object-fit: cover !important;
+        object-fit: cover;
         border-radius: 5px;
     }
-    .team-info h3 { font-size: 0.9rem; color: red !important;}
+    .team-info h3 { font-size: 0.9rem;}
     .team-info p { font-size: 0.75rem;}
     #team .team-grid .team-card img.team-img{
-        width: 130px !important;
-        min-width: 130px !important;
-        height: 130px !important;
-        min-height: 130px !important;
-        margin: 0 auto 10px auto !important;
-        display: block !important;
-        object-fit: cover !important;
-        border-radius: 50% !important;
+        width: 130px;
+        min-width: 130px ;
+        height: 130px;
+        min-height: 130px;
+        margin: 0 auto 10px auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 50%;
     }
     #team .team-card{
-        flex: 0 0 45% !important;
-        width: 45% !important;
-        max-width: 45% !important;
-        background: transparent !important;
+        flex: 0 0 45%;
+        width: 45%;
+        max-width: 45%;
+        background: transparent;
     }
 /*}*/
 /*--DESKTOP--*/
