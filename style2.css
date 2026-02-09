@@ -597,7 +597,7 @@ input:invalid {
     width: 90%;
     margin: 0 auto;
     gap: 0px;
-    padding: 20px 10%;
+    padding: 0px;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x proximity;
 }
