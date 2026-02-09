@@ -656,6 +656,9 @@ input:invalid {
         max-width: 75%;
         background: transparent;
         flex-direction: column;
+        display: flex;
+        align-items: center;
+        border: none ;
     }
 /*}*/
 /*--DESKTOP--*/
