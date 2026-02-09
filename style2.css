@@ -597,9 +597,9 @@ input:invalid {
     width:60%;
     margin: 0 auto;
     gap: 0px;
-    padding: 50px;
-    /*-webkit-overflow-scrolling: touch;
-    scroll-snap-type: x proximity;*/
+    padding: 20px 20px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
 }
 .team-card{
     flex: 0 0 60%;
