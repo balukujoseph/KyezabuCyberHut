@@ -645,7 +645,7 @@ input:invalid {
     }
     .team-info h3 { font-size: 1.3rem;}
     .team-info p { font-size: 1.3rem;}
-   /*#team .team-grid  img.team-img{
+   #team .team-grid  img.team-img{
         width: 130px;
         min-width: 130px ;
         height: 130px;
@@ -653,7 +653,7 @@ input:invalid {
         margin: 0 auto 10px auto;
         display: block;
         object-fit: cover;
-    }*/
+    }
     #team .team-card{
         flex: 0 0 40%;
         width: 40%;
