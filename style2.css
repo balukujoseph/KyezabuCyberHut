@@ -655,6 +655,7 @@ input:invalid {
         width: 75%;
         max-width: 75%;
         background: transparent;
+        flex-direction: column;
     }
 /*}*/
 /*--DESKTOP--*/
