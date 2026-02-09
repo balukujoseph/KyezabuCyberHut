@@ -594,7 +594,7 @@ input:invalid {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     width:60%;
     margin-left: -15px !important;
     margin-right: -15px !important;
