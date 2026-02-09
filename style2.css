@@ -596,8 +596,8 @@ input:invalid {
     overflow-x: auto;
     justify-content: center !important;
     width:60%;
-    /*margin-left: -15px !important;
-    margin-right: -15px !important;*/
+    margin-left: -15px !important;
+    margin-right: -15px !important;
     gap: 0px;
     padding: 20px 0px;
     scroll-padding: 0 !important;
