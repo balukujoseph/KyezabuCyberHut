@@ -587,6 +587,8 @@ input:invalid {
     width: 100%;
     padding: 60px 0;
     overflow: hidden;
+    padding-left: 0px;
+    padding-right:0px;
 }
 .team-grid{
     display: flex;
@@ -595,7 +597,8 @@ input:invalid {
     overflow-x: auto;
     justify-content: center;
     width:60%;
-    margin: 0 auto;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
     gap: 0px;
     padding: 20px 0px;
     -webkit-overflow-scrolling: touch;
