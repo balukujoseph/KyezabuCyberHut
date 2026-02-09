@@ -601,8 +601,8 @@ input:invalid {
     gap: 0px;
     padding: 20px 0px;
     scroll-padding: 0 !important;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x proximity;
+   /* -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;*/
 }
 .team-card{
     flex: 0 0 60%;
