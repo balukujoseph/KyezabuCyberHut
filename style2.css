@@ -620,9 +620,9 @@ input:invalid {
 /*--MOBILE--
 @media screen and (max-width: 768px){*/
     .team-card{
-        flex:0 0 45%;
-        width: 45% ;
-        max-width: 45% ;
+        flex:0 0 75%;
+        width: 75% ;
+        max-width: 75% ;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
@@ -649,9 +649,9 @@ input:invalid {
         object-fit: cover;
     }
     #team .team-card{
-        flex: 0 0 50%;
-        width: 50%;
-        max-width: 50%;
+        flex: 0 0 75%;
+        width: 75%;
+        max-width: 75%;
         background: transparent;
     }
 /*}*/
