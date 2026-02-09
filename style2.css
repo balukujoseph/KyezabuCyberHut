@@ -625,7 +625,7 @@ input:invalid {
         flex:0 0 75%;
         width: 75% ;
         max-width: 75% ;
-        margin-bottom: 20px;
+        margin: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -639,7 +639,7 @@ input:invalid {
         object-fit: cover;
         border-radius: 5px;
     }
-    .team-info h3 { font-size: 1.5rem;}
+    .team-info h3 { font-size: 1.3rem;}
     .team-info p { font-size: 1.3rem;}
    /*#team .team-grid  img.team-img{
         width: 130px;
